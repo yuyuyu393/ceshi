@@ -5,7 +5,6 @@ builder = "DOCKERFILE"
 dockerfilePath = "./Dockerfile"
 
 [
-deploy
+deploy.healthcheck
 ]
-healthcheckPath = ""
-healthcheckTimeout = 0
+disable = true
