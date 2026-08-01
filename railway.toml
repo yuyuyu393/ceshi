@@ -1,10 +1,6 @@
-[
-build
-]
+[build]
 builder = "DOCKERFILE"
 dockerfilePath = "./Dockerfile"
 
-[
-deploy.healthcheck
-]
+[deploy.healthcheck]
 disable = true
