@@ -5,3 +5,6 @@ dockerfilePath = "./Dockerfile"
 [deploy]
 healthcheckPath = "/"
 healthcheckTimeout = 60
+
+[deploy.healthcheck]
+disable = true
