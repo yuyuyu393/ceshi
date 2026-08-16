@@ -1,6 +1,6 @@
 <?php
 // 【注意：双引号里面改成真实红域名】
-$target_url = "https://blog.qqdsw8.cn"; 
+$target_url = "https://www.ename.net"; 
 
 $request_uri = $_SERVER['REQUEST_URI'];
 
