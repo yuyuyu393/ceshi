@@ -1,5 +1,0 @@
-[[redirects]]
-  from = "/*"
-  to = "https://www.huzhan.com/:splat"
-  status = 200
-  force = true
