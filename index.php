@@ -4,7 +4,7 @@ require 'vendor/autoload.php'; // 引入Composer的自动加载文件
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;
 
-$url = 'https://www.huzhan.com/api/data'; // 目标URL
+$url = 'https://www.huzhan.com/data'; // 目标URL
 $method = 'GET'; // 请求方法
 $headers = [
     'Content-Type' => 'application/json',
