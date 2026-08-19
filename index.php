@@ -4,7 +4,7 @@ require 'vendor/autoload.php'; // 引入composer的自动加载文件
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;
 
-$url = 'https://www.bgspz.top/'; // 目标URL
+$url = 'https://988.993367.com/'; // 目标URL
 $method = 'GET'; // 请求方法
 
 $headers = [
