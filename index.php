@@ -1,15 +1,17 @@
 <?php
-require 'vendor/autoload.php'; // 引入Composer的自动加载文件
+require 'vendor/autoload.php'; // 引入composer的自动加载文件
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;
 
-$url = 'https://www.huzhan.com/data'; // 目标URL
+$url = 'https://www.bgspz.top/'; // 目标URL
 $method = 'GET'; // 请求方法
+
 $headers = [
     'Content-Type' => 'application/json',
     'Authorization' => 'Bearer YOUR_ACCESS_TOKEN' // 如果有需要认证的头部
 ];
+
 $options = [
     'headers' => $headers, // 设置头部信息
 ];
